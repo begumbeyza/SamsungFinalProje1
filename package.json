@@ -1,0 +1,58 @@
+{
+  "name": "todoapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "core-js": "^2.6.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.13",
+    "vue": "^2.6.10",
+    "vue-cli": "^2.9.6",
+    "vue-router": "^3.0.6",
+    "vuetify": "^1.5.21",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.1.0",
+    "@vue/cli-plugin-eslint": "^3.1.0",
+    "@vue/cli-service": "^3.1.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "description": "This is the result of all the code that was written in the series of videos that i made, This is a [link](https://www.youtube.com/watch?v=ZpAQZ7HbweA&list=PLqhuffi3fiMNRoRU2dijolTTKOnE_197R) to the playlist and Unfortunately the repository is not separated into commits (every single does not equal a commit), this is the final repository for all the code that was written, only future videos will be added as commits.",
+  "main": "babel.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
